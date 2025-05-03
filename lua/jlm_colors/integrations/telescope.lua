@@ -4,9 +4,9 @@ local M = {}
 
 function M.highlights()
 	return {
-		TelescopeTitle = { fg = colors.black, bg = colors.orange, bold = true },
-		TelescopeMatching = { fg = colors.orange },
-		TelescopeSelection = { fg = colors.secondary, bold = true },
+		TelescopeTitle = { bold = true, fg = colors.red },
+		TelescopeMatching = { fg = colors.dkBlue },
+		TelescopeSelection = { fg = colors.comment, bold = true },
 	}
 end
 
